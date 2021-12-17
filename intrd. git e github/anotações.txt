@@ -6,9 +6,23 @@ Git Bash - terminal extendido para otimizar o uso do Git
 //////////////////////////////////////////////////////////
 
 comm.:
-- git clone *link*
-- cd *tab*
+- git clone *link* = "puxa" repositório do servidor git (github)
+- cd *local* = navegar dentro de pastas
+- mkdir *name folder* = criar pasta
 - git status
 - git add .
+- git init = iniciar repositório novo (vazio)
+- ls = list
+- ls = msotra ocultos
 - git commit -m "message"
-- git push origin main
+- git config --global user.email "*email*" = adicionar autor
+- git config --global user.name "*user*" = adicionar nome do user
+- git push origin main = atualiza repositório
+- ctrl + l = clear
+- *tab*
+- ssh-keygen -t ed25519 -C *email do git* = criar chave ssh
+	- enter passphrase (empty for no passphrase): *******
+	- enter same passphrase agin: *******
+
+--------------------------
+SSH KEY - git clone - "endereço ssh / não o https"
